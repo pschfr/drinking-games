@@ -1,0 +1,9 @@
+- Narrow urethra
+- Dammit Bobby!
+- John Redcorn
+- Yup
+- What?
+- Why?
+- Propane and propane accessories
+- Bobby obsesses over something
+- Ho yeah!

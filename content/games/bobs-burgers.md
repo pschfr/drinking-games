@@ -1,0 +1,12 @@
+- The scary zoom
+- "Oh hey Marshmallow"
+- Linda drinks
+- Tina says something sexual
+- Somebody groans
+- Butts
+- A holiday episode
+- Another story about how they met
+- A fart joke
+- Gene is wholesome
+- Tina hyperventilates
+- Linda calls Louise Miss Missy
