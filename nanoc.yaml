@@ -5,6 +5,12 @@ text_extensions: [ 'adoc', 'asciidoc', 'atom', 'coffee', 'css', 'erb', 'haml', '
 
 prune:
   auto_prune: true
+  exclude: [ '.git' ]
+
+deploy:
+  default:
+    kind: git
+    branch: gh-pages
 
 data_sources:
   - type: filesystem

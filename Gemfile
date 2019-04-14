@@ -7,12 +7,15 @@ gem 'nanoc'
 gem 'kramdown'
 
 # Only loads in development environments
-group :development do
+group :development, :test do
   # A Dead Simple Fileserver (with live-reloading!)
   gem 'adsf-live'
 
   # Re-runs commands on filesystem changes
   gem 'rerun'
+
+  # Used with Nanoc to check for broken or stale links
+  gem 'nokogiri'
 
   # This brings us true live-reloading with this command:
   # bundle exec rerun -xb nanoc | bundle exec nanoc view -L
