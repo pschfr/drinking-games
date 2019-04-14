@@ -1,3 +1,8 @@
+---
+title: Harry Potter
+created_at: 2018-11-20
+kind: article
+---
 - Harry's scar hurts
 - Ron or Neville fucks up
 - Malfoy mentions his father

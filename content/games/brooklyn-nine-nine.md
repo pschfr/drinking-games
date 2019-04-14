@@ -1,3 +1,8 @@
+---
+title: Brooklyn Nine-Nine
+created_at: 2018-07-25
+kind: article
+---
 - Title of your sex tape!
 - "Captain."
 - Date/time on screen

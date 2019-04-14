@@ -1,3 +1,8 @@
+---
+title: Mr. Pickles
+created_at: 2017-02-02
+kind: article
+---
 - He humps something/someone
 - He "talks" to an animal
 - You hear "Good boy"

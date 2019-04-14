@@ -1,3 +1,8 @@
+---
+title: Family Guy
+created_at: 2017-01-20
+kind: article
+---
 ## One drink
 - Peter gets hurt
 - Anytime you see 'Quahog'

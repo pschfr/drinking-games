@@ -1,3 +1,8 @@
+---
+title: High School Musical
+created_at: 2017-09-03
+kind: article
+---
 - Someone says "wildcat"
 - Ryan wears a hat
 - Sharpay insults someone

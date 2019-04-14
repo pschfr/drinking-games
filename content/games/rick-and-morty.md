@@ -1,3 +1,8 @@
+---
+title: Rick and Morty
+created_at: 2017-05-12
+kind: article
+---
 - Someone goes through a portal
 - Wubba Lubba Dub Dub!!!
 - Jerry says/does anything dumb

@@ -1,3 +1,8 @@
+---
+title: Zatch Bell
+created_at: 2017-09-16
+kind: article
+---
 - Yellowtail
 - Zatch gets teased by Naomi
 - A new Mamodo

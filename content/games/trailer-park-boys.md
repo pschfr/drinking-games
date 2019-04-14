@@ -1,3 +1,8 @@
+---
+title: Trailer Park Boys
+created_at: 2017-02-18
+kind: article
+---
 - Someone says "Fuck off" or "Frig off"
 - Julian drinks
 - Bubbles mentions kitties

@@ -1,3 +1,8 @@
+---
+title: Bob's Burgers
+created_at: 2018-07-01
+kind: article
+---
 - The scary zoom
 - "Oh hey Marshmallow"
 - Linda drinks

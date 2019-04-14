@@ -1,3 +1,8 @@
+---
+title: American Dad!
+created_at: 2017-08-28
+kind: article
+---
 - Steve sings
 - Klaus says something racist
 - Steve cries

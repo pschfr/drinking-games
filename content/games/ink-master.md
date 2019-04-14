@@ -1,3 +1,8 @@
+---
+title: Ink Master
+created_at: 2017-08-30
+kind: article
+---
 - Somebody goes home
 - A word is bleeped out
 - Peck has a toothpick
