@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Flexible static site generator
 gem 'nanoc'
 
+# Fast Markdown converter
+gem 'kramdown'
+
 # Only loads in development environments
 group :development do
   # A Dead Simple Fileserver (with live-reloading!)
