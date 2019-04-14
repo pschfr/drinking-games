@@ -16,7 +16,7 @@ end
 # This rule matches Markdown (.md) files, and uses the :kramdown filter.
 compile '/**/*.md' do
   filter :kramdown
-  layout '/default.*'
+  layout '/post.*'
   write item.identifier.without_ext + '/index.html'
 end
 
