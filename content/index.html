@@ -1,3 +1,8 @@
 ---
 title: Home
 ---
+<ul>
+	<% @items.find_all('/games/*').each do |game| %>
+		<li><a href="<%= game.path %>"><%= game.path %></a></li>
+	<% end %>
+</ul>

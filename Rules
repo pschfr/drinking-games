@@ -1,10 +1,13 @@
 #!/usr/bin/env ruby
 
+# The index page needs compiled with erb
 compile '/index.html' do
+  filter :erb
   layout '/default.*'
   write '/index.html'
 end
 
+# HTML files get piped straight through as a folder with an index file.
 compile '/**/*.html' do
   layout '/default.*'
   write item.identifier.without_ext + '/index.html'
@@ -17,8 +20,10 @@ compile '/**/*.md' do
   write item.identifier.without_ext + '/index.html'
 end
 
+# Any other files get piped straight through
 compile '/**/*' do
   write item.identifier.to_s
 end
 
+# All layout pages get compiled with erb
 layout '/**/*', :erb
