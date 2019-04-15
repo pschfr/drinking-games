@@ -2,7 +2,7 @@
 	<% sorted_articles.each do |post| %>
 		<li>
 			<h1><%= link_to post[:title], post.path %></h1>
-			<aside>Posted at: <%= post[:created_at] %></aside>
+			<aside>Posted at: <%= pretty_date(post[:created_at]) %></aside>
 		</li>
 	<% end %>
 </ul>

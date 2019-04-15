@@ -6,3 +6,6 @@ use_helper Nanoc::Helpers::Blogging
 
 # Enables Rails-like link_to helper
 use_helper Nanoc::Helpers::LinkTo
+
+# Enables my custom DateTime helper
+use_helper DateHelper
