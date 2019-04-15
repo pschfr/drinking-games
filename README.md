@@ -1,4 +1,4 @@
-# drinking-games
+# [drinking-games](https://pschfr.github.io/drinking-games/)
 A drinking game website built with [Nanoc](https://nanoc.ws/).
 
 ## Running
