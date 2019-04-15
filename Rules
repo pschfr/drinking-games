@@ -23,6 +23,26 @@ compile '/**/*.md' do
   write item.identifier.without_ext + '/index.html'
 end
 
+# Compiles Sass stylesheet, as well as an accompanying source map
+%i[default sourcemap].each do |rep_name|
+  # Ignores Sass files starting with an underscore
+  ignore '/css/_*.sass'
+
+  compile '/css/stylesheet.sass', rep: rep_name do
+    path = @item.identifier.without_ext + '.css'
+    options = { syntax: :sass, style: :compact, css_path: path, sourcemap_path: path + '.map' } # rubocop:disable LineLength
+
+    case rep_name
+    when :default
+      filter :sass, options
+      write path
+    when :sourcemap
+      filter :sass_sourcemap, options
+      write path + '.map'
+    end
+  end
+end
+
 # Any other files get piped straight through
 compile '/**/*' do
   write item.identifier.to_s

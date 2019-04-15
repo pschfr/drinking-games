@@ -6,6 +6,9 @@ gem 'nanoc'
 # Fast Markdown converter
 gem 'kramdown'
 
+# Syntactically Awesome Style Sheets
+gem 'sass'
+
 # Only loads in development environments
 group :development, :test do
   # A Dead Simple Fileserver (with live-reloading!)
