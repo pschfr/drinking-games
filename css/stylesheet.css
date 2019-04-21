@@ -2,13 +2,15 @@ body { background-color: black; color: white; font-family: -apple-system, BlinkM
 
 header h1 { padding: 0 1rem; margin: 1rem 0; }
 
-main { padding: 0 1rem; }
+main { padding: 0 1rem; column-count: 4; column-width: 250px; }
 
 ul { list-style-type: none; padding-left: 0; margin: 0; }
-ul li { margin-bottom: 1.5rem; }
+ul li { margin-bottom: 1.5rem; page-break-inside: avoid; break-inside: avoid; }
 ul li h1 { margin: 0; }
 
-a { color: blue; }
-a:hover, a:focus { color: navy; }
+.post ul li { text-align: center; }
+
+a { color: white; }
+a:hover, a:focus { color: #bfbfbf; }
 
 /*# sourceMappingURL=/css/stylesheet.css.map */
