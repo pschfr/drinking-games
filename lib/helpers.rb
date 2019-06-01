@@ -9,3 +9,6 @@ use_helper Nanoc::Helpers::LinkTo
 
 # Enables my custom DateTime helper
 use_helper DateHelper
+
+# Enables my helper for adding functionality to individual games
+use_helper GameHelper

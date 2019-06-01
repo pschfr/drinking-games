@@ -1,7 +1,7 @@
 <% render '/default.html' do %>
 	<div class='post'>
 		<article>
-			<%= yield %>
+			<%= list_to_links(yield) %>
 		</article>
 	</div>
 <% end %>
