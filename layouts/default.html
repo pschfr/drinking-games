@@ -11,6 +11,8 @@
     <main>
       <%= yield %>
     </main>
-    <script src="/js/game.js"></script>
+    <% if @item[:title] %>
+      <script src="/js/game.js"></script>
+    <% end %>
   </body>
 </html>
