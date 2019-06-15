@@ -1,13 +1,13 @@
 // Globally available data and helper functions
 
-// Gets the name of the specific game
-const game_name = window.location.pathname.replace('/games/', '').replace('/', '');
-
 // "Parameterize" a string similar to Ruby
 // https://www.w3resource.com/javascript-exercises/javascript-string-exercise-7.php
 const string_parameterize = function (str1) {
 	return str1.trim().toLowerCase().replace(/[^a-zA-Z0-9 -]/, '').replace(/\s/g, '-');
 };
+
+// Gets the name of the specific game
+const game_name = string_parameterize(document.getElementById('title').innerText);
 
 // The individual 'drink!' function
 function drink(game) {
