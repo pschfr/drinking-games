@@ -1,7 +1,9 @@
 <header>
 	<h1>
 		<% if @item[:title] %>
-			<%= @item[:title] %>
+			<span id="title">
+				<%= @item[:title] %>
+			</span>
 		<% else %>
 			<%= title %>
 		<% end %>
