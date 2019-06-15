@@ -1,5 +1,5 @@
 ---
-title: Brooklyn Nine-Nine
+title: Deadpool
 created_at: 2017-05-18
 kind: article
 ---
