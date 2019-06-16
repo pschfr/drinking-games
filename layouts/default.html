@@ -2,20 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A collection of drinking games, built with Nanoc.">
+    <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
     <title>Paul&apos;s <%= @item[:title] %> Drinking Games</title>
     <link rel="stylesheet" href="/css/stylesheet.css">
-    <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
   </head>
   <body>
     <%= render '/header.html', :title => 'Drinking Games' %>
     <main>
       <%= yield %>
     </main>
-    <script src="/js/global.js"></script>
+    <script src="/js/global.js" defer></script>
     <% if @item[:title] %>
-      <script src="/js/game.js"></script>
+      <script src="/js/game.js" defer></script>
     <% else %>
-      <script src="/js/index.js"></script>
+      <script src="/js/index.js" defer></script>
     <% end %>
   </body>
 </html>
