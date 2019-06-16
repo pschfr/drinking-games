@@ -1,7 +1,7 @@
 <ul>
 	<% sorted_articles.each do |post| %>
 		<li>
-			<h1><%= link_to post[:title], post.path %></h1>
+			<h1><%= link_to post[:title], post.path, :'data-counter' => '0' %></h1>
 			<time datetime="<%= post[:created_at] %>" title="<%= post[:created_at] %>">
 				<%= pretty_date(post[:created_at]) %>
 			</time>
