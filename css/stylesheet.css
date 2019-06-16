@@ -9,9 +9,14 @@ ul li { margin-bottom: 1.5rem; page-break-inside: avoid; break-inside: avoid; }
 ul li h1 { margin: 0; }
 
 .post ul li { text-align: center; }
-.post ul li[data-counter]:after { content: attr(data-counter); position: relative; display: inline-block; left: 10px; }
 
 a { color: white; }
 a:hover, a:focus { color: #bfbfbf; }
+
+[data-counter]:after { content: attr(data-counter); position: relative; display: inline-block; left: 10px; font-size: 16px; }
+
+#total { position: absolute; right: 1rem; }
+
+[data-counter]:after, #total { font-family: monospace; }
 
 /*# sourceMappingURL=/css/stylesheet.css.map */

@@ -1,13 +1,17 @@
-// Globally available data and helper functions
-
-// "Parameterize" a string similar to Ruby
-// https://www.w3resource.com/javascript-exercises/javascript-string-exercise-7.php
-const string_parameterize = function (str1) {
-	return str1.trim().toLowerCase().replace(/[^a-zA-Z0-9 -]/, '').replace(/\s/g, '-');
-};
-
 // Gets the name of the specific game
 const game_name = string_parameterize(document.getElementById('title').innerText);
+
+// Add to the total drink count
+function incrementTotal() {
+	// Reference the counter
+	const total_elem = document.getElementById('total');
+	
+	// Increment the counter
+	total_elem.innerText++;
+
+	// Add it to localStorage
+	localStorage.setItem(`drinking-game-${game_name}-total-count`, total_elem.innerText);
+}
 
 // The individual 'drink!' function
 function drink(game) {
@@ -19,6 +23,9 @@ function drink(game) {
 
 	// Save to localStorage
 	localStorage.setItem(`drinking-game-${game_name}-${drink_name}`, game.parentElement.dataset.counter);
+
+	// Add to grand total
+	incrementTotal();
 }
 
 // Load saved drinks from localStorage
@@ -39,6 +46,13 @@ function fetchDrinks() {
 			current_drink.parentElement.dataset.counter = current_drink_count;
 		}
 	});
+
+	// Fetch total counter value if set
+	const total_drink_count = localStorage.getItem(`drinking-game-${game_name}-total-count`);
+
+	if (total_drink_count > 0) {
+		document.getElementById('total').innerText = total_drink_count;
+	}
 }
 
 // Run fetchDrinks after DOM is loaded
