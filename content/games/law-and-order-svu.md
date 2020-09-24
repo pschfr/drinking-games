@@ -10,3 +10,6 @@ link: https://www.hulu.com/series/law-order-special-victims-unit-720ef5c1-fc77-4
 - Celebrity cameo
 - Body is found
 - Family member is involved
+- Someone on the force is involved
+- Episode-ending cliffhanger
+- Season-ending cliffhanger (drink 2x)
