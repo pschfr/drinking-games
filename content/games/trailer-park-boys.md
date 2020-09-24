@@ -2,6 +2,7 @@
 title: Trailer Park Boys
 created_at: 2017-02-18
 kind: article
+link: https://www.netflix.com/title/70153385
 ---
 - Someone says "Fuck off" or "Frig off"
 - Julian drinks

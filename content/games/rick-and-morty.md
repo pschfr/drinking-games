@@ -2,6 +2,7 @@
 title: Rick and Morty
 created_at: 2017-05-12
 kind: article
+link: https://www.hulu.com/series/rick-and-morty-d76d6361-3fbf-4842-8dd7-e05520557280
 ---
 - Someone goes through a portal
 - Wubba Lubba Dub Dub!!!

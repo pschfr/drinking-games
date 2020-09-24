@@ -2,6 +2,7 @@
 title: American Dad!
 created_at: 2017-08-28
 kind: article
+link: https://www.hulu.com/series/american-dad-977c8e25-cde0-41b7-80ce-e746f2d2093f
 ---
 - Steve sings
 - Klaus says something racist

@@ -2,6 +2,7 @@
 title: Family Guy
 created_at: 2017-01-20
 kind: article
+link: https://www.hulu.com/series/family-guy-3c3c0f8b-7366-4d15-88ab-18050285978e
 ---
 ## One drink
 - Peter gets hurt
