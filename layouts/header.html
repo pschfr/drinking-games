@@ -2,7 +2,13 @@
 	<h1>
 		<% if @item[:title] %>
 			<span id="title">
+				<% if @item[:link] %>
+					<a href="<%= @item[:link] %>" target="_blank" rel="noopener">
+				<% end %>
 				<%= @item[:title] %>
+				<% if @item[:link] %>
+					</a>
+				<% end %>
 			</span>
 			<span id="total">0</span>
 		<% else %>
