@@ -13,3 +13,4 @@ link: https://www.hulu.com/series/king-of-the-hill-52b8dd8a-eff2-4ed2-9b8d-7c003
 - Propane and propane accessories
 - Bobby obsesses over something
 - Ho yeah!
+- Dale sprouts a new conspiracy theory

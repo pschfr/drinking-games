@@ -1,5 +1,6 @@
 # Created by Bundler
 /vendor/bundle
+.bundle
 
 # Created by Nanoc
 /tmp/
